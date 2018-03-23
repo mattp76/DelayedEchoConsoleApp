@@ -13,11 +13,22 @@ namespace DelayedEchoConsoleApp.Services
 
         protected readonly IConcreteClass _concreteClass;
 
+        /// <summary>
+        /// EchoAppService
+        /// Constructor injecting the concrete class fromn the DelayedEcho library
+        /// </summary>
+        /// <param name="IConcreteClass"></param>
+        /// <returns></returns>
         public EchoAppService(IConcreteClass concreteClass)
         {
             this._concreteClass = concreteClass;
         }
 
+        /// <summary>
+        /// WriteToTheApp
+        /// This will create the infinite loop, interact with the DelayedEcho library and subscribe to the EchoEvent event handler 
+        /// </summary>
+        /// <returns></returns>
         public void WriteToTheApp()
         {
             _concreteClass.EchoEvent += EchoEventHandler;

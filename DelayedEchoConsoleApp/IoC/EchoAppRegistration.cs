@@ -9,6 +9,12 @@ namespace DelayedEchoConsoleApp.IoC
 {
     public static class EchoAppRegistration
     {
+        /// <summary>
+        /// Configure
+        /// Configure the IoC container with the relevant dependancies, using Autofac
+        /// </summary>
+        /// <param name="IConcreteClass"></param>
+        /// <returns></returns>
         public static IContainer Configure()
         {
             var builder = new ContainerBuilder();

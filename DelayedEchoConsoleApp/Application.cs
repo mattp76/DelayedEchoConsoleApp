@@ -12,6 +12,11 @@ namespace DelayedEchoConsoleApp
             _service = service;
         }
 
+        /// <summary>
+        /// Run
+        /// Run the writeToTheApp service method
+        /// </summary>
+        /// <returns></returns>
         public void Run()
         {
             _service.WriteToTheApp();
