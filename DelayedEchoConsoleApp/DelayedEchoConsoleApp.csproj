@@ -38,7 +38,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="DelayedEcho, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DelayedEcho.MP.AP.1.0.0\lib\net4.5.2\DelayedEcho.dll</HintPath>
+      <HintPath>..\packages\DelayedEcho.MP.AP.1.0.1\lib\net4.5.2\DelayedEcho.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
