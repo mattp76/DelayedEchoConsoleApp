@@ -20,8 +20,9 @@ hello:10
 hello being the messsage. 10 being the numbers of seconds before the response from the class library event is seen.
 
 ## Packages Information
-Autofac version 4.6.2
-DelayedEcho.MP.AP version 1.0.1  (this is the public nuget package of the DelayedEcho classlibrary)
+#Autofac version 4.6.2
+
+#DelayedEcho.MP.AP version 1.0.1  (this is the public nuget package of the DelayedEcho classlibrary)
 
 url: https://www.nuget.org/packages/DelayedEcho.MP.AP/
 
